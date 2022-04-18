@@ -1,4 +1,5 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import './Header.css'
 const Header=()=>{
     return (
@@ -7,13 +8,13 @@ const Header=()=>{
                 <Col>
                 <Card className="d-flex justify-content-between flex-row px-4">
                     <div>
-                        <img src="https://shadhinweb.com/wp-content/uploads/elementor/thumbs/Logo-pknludivh9imtwijpklp70li2gd79l73326lb7rwho.png" alt="#" />
+                      <Link to='/'><img src="https://shadhinweb.com/wp-content/uploads/elementor/thumbs/Logo-pknludivh9imtwijpklp70li2gd79l73326lb7rwho.png" alt="#" /></Link>
                     </div>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Devs</a></li>
-                        <li><a href="#">Single Page</a></li>
-                        <li><a href="#">Dashboard</a></li>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/add_devs'>Devs</Link></li>
+                        <li><Link to='/single'>Single Page</Link></li>
+                        <li><Link to='/admin'>Dashboard</Link></li>
                     </ul>
                 </Card>
                 

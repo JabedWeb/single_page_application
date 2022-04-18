@@ -31,6 +31,9 @@ function Add_team() {
                         </Form.Group>
                     </form>
                   </Card.Body>
+                  <Card.Footer>
+                    <a href="http://">All Devs</a>
+                  </Card.Footer>
               </Card>
             </Col>
         </Row>
