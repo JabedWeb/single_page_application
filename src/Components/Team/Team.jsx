@@ -17,6 +17,16 @@ const Team = () => {
                     </Card.Body>
                 </Card>
                </Col>
+               <Col md={3}>
+                <Card>
+                    <Card.Img style={{height :"200px", objectFit : "cover"}} src="https://cdn.powerpackelements.com/wp-content/uploads/2017/11/Team-memeber-01.png"/>
+                    <Card.Body>
+                        <h1>Jabed</h1>
+                        <p>01793534981</p>
+                        <Button>View Profile</Button>
+                    </Card.Body>
+                </Card>
+               </Col>
            </Row>
        </Container>
     </section>
