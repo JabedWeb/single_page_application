@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Col, Container, Form, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 
 function Add_team() {
   return (
@@ -32,7 +33,7 @@ function Add_team() {
                     </form>
                   </Card.Body>
                   <Card.Footer>
-                    <a href="http://">All Devs</a>
+                    <Link to='/'>All Devs</Link>
                   </Card.Footer>
               </Card>
             </Col>
